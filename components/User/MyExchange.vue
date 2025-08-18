@@ -91,7 +91,7 @@ import {
     formatNumber
 } from '#imports';
 import VueDatePicker from '@vuepic/vue-datepicker';
-import '@/assets/css/vuedatepicker.css';
+// import '@/assets/css/vuedatepicker.css';
 
 interface Exchange {
     date: string,
