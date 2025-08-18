@@ -1386,6 +1386,14 @@ modal {
   font-weight: 600;
 }
 
+.text-purple {
+  color: #5030E5 !important;
+}
+
+.text-pink {
+  color: #F46AD1 !important;
+}
+
 .fs-7 {
   font-size: 0.9rem;
 }

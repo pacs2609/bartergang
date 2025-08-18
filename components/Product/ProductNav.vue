@@ -19,10 +19,10 @@
             <li>
                 <Icon icon="mingcute:baby-line" />สินค้าแม่และเด็ก
             </li>
-            <li data-bs-toggle="collapse" href="#submenu" role="button" aria-expanded="true" aria-controls="submenu">
+            <li>
                 <Icon icon="gravity-ui:persons" />สุขภาพและความงาม
             </li>
-            <ul class="collapse list-unstyled ps-4 show" id="submenu">
+            <ul class="list-unstyled ps-4 show">
                 <li class="nav-item">
                     <a href="#">อาหารเสริม</a>
                 </li>
@@ -39,10 +39,10 @@
             <li>
                 <Icon icon="material-symbols:home-and-garden" />บ้านและสวน
             </li>
-            <li href="#submenu2" data-bs-toggle="collapse" role="button" aria-expanded="true" aria-controls="submenu2">
+            <li>
                 <Icon icon="arcticons:electron" style="stroke-width: 3px;" />เครื่องใช้ไฟฟ้า
             </li>
-            <ul class="collapse list-unstyled ps-4 show" id="submenu2">
+            <ul class="list-unstyled ps-4 show">
                 <li class="nav-item">
                     <a href="#">มือถือและอุปกรณ์ถ่ายภาพ</a>
                 </li>

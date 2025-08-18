@@ -422,3 +422,7 @@ strong.qty {
   background: #F90;
   color: white;
 }
+
+a:hover {
+  color: #CCC;
+}

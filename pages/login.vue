@@ -12,7 +12,7 @@
                                 <h1>Login</h1>
                             </div>
                             <div class="col-md-12">
-                                <p>กรอกรายละเอียดด้านล่าง</p>
+                                <p>Please fill in the details below.</p>
                             </div>
                             <div class="col-md-12">
                                 <input class="form-control" type="text" v-model="credentials.username"
@@ -38,12 +38,7 @@
     </section>
 </template>
 
-<script setup lang="ts">
-definePageMeta({
-    layout: 'default',
-    middleware: 'auth'
-})
-
+<script lang="ts" setup>
 import {
     reactive,
     ref
@@ -80,6 +75,11 @@ async function login() {
         loading.value = false;
     }
 }
+
+definePageMeta({
+    layout: 'default',
+    middleware: 'auth'
+})
 </script>
 
 <style scoped>
